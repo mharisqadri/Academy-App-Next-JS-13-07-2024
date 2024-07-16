@@ -15,13 +15,10 @@ function HeroSection() {
         <div className="p-4 relative z-10 w-full text-center" >
             <h1
             className="mt-20 py-2 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
-            >Master your skills</h1>
+            >Inspiring Islamic Excellence</h1>
             <p
             className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-          cupiditate suscipit unde placeat non dignissimos nihil. Maiores, animi
-          alias, nihil iste cumque laborum assumenda debitis omnis minus
-          praesentium saepe nam.</p>
+            >Join Haris Qadri Islamic Academy to nurture your spiritual and intellectual growth with our comprehensive Islamic education. Explore courses in Naat, Qiraat, Tajweed, and more, guided by expert instructors.</p>
           <div className="mt-4">
             <Link href={"/courses"}>
              <Button 

@@ -24,32 +24,33 @@ export default function InfiniteMovingCardsDemo() {
 
 const testimonials = [
   {
-    quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+    "quote": "Haris Qadri Islamic Academy has transformed my understanding of Tajweed. The personalized attention and structured courses have been exceptional.",
+    "name": "Ahmed Khan",
+    "title": "Student"
   },
   {
-    quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+    "quote": "The Naat Course at Haris Qadri Islamic Academy helped me refine my recitation skills and boosted my confidence to perform in public.",
+    "name": "Ali Farooq",
+    "title": "Performer"
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+    "quote": "As a parent, I am impressed with the comprehensive curriculum and the dedication of the instructors at Haris Qadri Islamic Academy.",
+    "name": "Malik Siraj",
+    "title": "Parent"
   },
   {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    "quote": "The Hifz program at Haris Qadri Islamic Academy has been a blessing. My child has made tremendous progress thanks to the expert guidance.",
+    "name": "Muhammad Aslam",
+    "title": "Parent"
   },
   {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+    "quote": "I have greatly benefited from the Mubaligh Course. It has equipped me with the necessary skills to effectively deliver sermons and religious guidance.",
+    "name": "Bilal Ahmed",
+    "title": "Aspiring Mubaligh"
   },
-];
+  {
+    "quote": "The diverse range of courses offered at Haris Qadri Islamic Academy has deepened my understanding of Islamic teachings and improved my recitation.",
+    "name": "Ayan Siddiqui",
+    "title": "Student"
+  }
+]

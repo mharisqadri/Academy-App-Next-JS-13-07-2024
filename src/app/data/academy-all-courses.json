@@ -3,94 +3,115 @@
     "courses": [
       {
         "id": 1,
-        "title": "Basic Qaida",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "title": "Basic Tajweed",
+        "slug": "basic-tajweed",
+        "description": "Learn the foundational rules of Tajweed to ensure proper pronunciation and recitation of the Quran.",
         "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "instructor": "Yousuf Raza Attari",
+        "isFeatured": false,
+        "image": "/courses/nazra.jpg" 
       },
       {
         "id": 2,
         "title": "Nazra Quran-e-Pak",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+        "slug": "nazra-quran",
+        "description": "Begin your Quranic journey with our introductory course in Nazra Quran, focusing on reading fluency and accuracy.",
         "price": 109.99,
-        "instructor": "Jane Smith",
+        "instructor": "Qari Hanif Attari",
         "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "image": "/courses/nazra.jfif" 
       },
       {
         "id": 3,
         "title": "Hifz e Quran-e-Pak",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
+        "slug": "hifz-quran",
+        "description": "Memorize the Holy Quran with expert guidance and structured revision sessions.",
         "price": 119.99,
-        "instructor": "Emily Johnson",
+        "instructor": "Hafiz Ahmad Raza Qadri",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/courses/hifz.jfif" 
       },
       {
         "id": 4,
         "title": "Basic Qiraat",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
+        "slug": "basic-qiraat",
+        "description": "Master the basics of Quranic recitation with our comprehensive Qiraat course.",
         "price": 129.99,
-        "instructor": "Mike Brown",
+        "instructor": "Ateeq Qadri",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "/courses/qirat.jfif"
       },
       {
         "id": 5,
         "title": "Advance Qiraat",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
+        "slug": "advance-qiraat",
+        "description": "Enhance your recitation skills with advanced techniques and styles of Qiraat.",
         "price": 139.99,
-        "instructor": "Chris Davis",
+        "instructor": "Qari Asrhaf Qadri",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "/courses/qiratMaster.jfif"
       },
       {
         "id": 6,
-        "title": "Basic Naat",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
+        "title": "Qira'at al-Sab'a (Seven Styles of Recitation)",
+        "slug": "qiraat-al-saba",
+        "description": "Learn the seven canonical styles of Quranic recitation with detailed instruction and practice.",
         "price": 149.99,
-        "instructor": "Alex Wilson",
+        "instructor": "Qari",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/sevenQiraat.jfif"
       },
       {
         "id": 7,
-        "title": "Advance Naat",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
+        "title": "Naat Course",
+        "slug": "naat-course",
+        "description": "Master the art of Naat recitation, focusing on vocal techniques and expression.",
+        "price": 119.99,
+        "instructor": "Owais Raza Qadri",
+        "isFeatured": true,
+        "image": "/courses/naat.jfif"
+      },
+      {
+        "id": 8,
+        "title": "Naat Writing and Composition",
+        "slug": "naat-writing-composition",
+        "description": "Learn the essentials of writing and composing Naat, from lyrical structure to melodic composition.",
         "price": 159.99,
-        "instructor": "Samantha Miller",
+        "instructor": "Allama Nisar Ali Ujagar",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "/courses/advNaat.jfif"
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "Mastery in Qiraat and Naat",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
+        "slug": "mastery-qiraat-naat",
+        "description": "Achieve mastery in both Qiraat and Naat with advanced training and personalized feedback.",
         "price": 169.99,
-        "instructor": "Luke Harris",
+        "instructor": "Hafiz Tahir Qadri",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/advNaat.jfif"
       },
       {
-        "id": 8,
+        "id": 10,
         "title": "Mubaligh Course",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
+        "slug": "mubaligh-course",
+        "description": "Train to become a proficient Mubaligh with skills in public speaking, sermon delivery, and religious guidance.",
+        "price": 129.99,
+        "instructor": "Haji Ashfaq Attari",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/mubaligh.png"
+      },
+      {
+        "id": 11,
+        "title": "Language Courses",
+        "slug": "language-courses",
+        "description": "Develop proficiency in classical Arabic,English,Turkish and other languages essential for Islamic scholarship.",
+        "price": 119.99,
+        "instructor": "Industry Experts",
+        "isFeatured": true,
+        "image": "/courses/language.jpeg"
       }
     ]
+    
   }
   

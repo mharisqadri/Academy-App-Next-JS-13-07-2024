@@ -1,6 +1,7 @@
 
 
 import FeaturedCourses from "./components/FeaturedCourses";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Instructors from "./components/Instructors";
 import InfiniteMovingCardsDemo from "./components/testimonial-cards";
@@ -15,6 +16,7 @@ export default function Home(){
         <FeaturedCourses />
         <InfiniteMovingCardsDemo />
         <Instructors />
+        <Footer />
         </main>
         </>
     );
