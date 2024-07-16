@@ -7,7 +7,7 @@ export default function InfiniteMovingCardsDemo() {
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
         <h2 className="text-3xl font-bold text-center mb-8">
-            Hear our Harmony: Voices of Success</h2>
+            Hear our Harmony: Voices of <span className=" text-teal-600 font-extrabold tracking-wide">Success</span></h2>
             <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
                 <div className="w-full max-w-6xl">
       <InfiniteMovingCards
