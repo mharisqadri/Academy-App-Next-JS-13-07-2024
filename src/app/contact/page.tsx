@@ -12,7 +12,7 @@ export default function BackgroundBeamsDemo() {
         </h1>
         <p></p>
         <p className="text-neutral-400 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-        We're here to help you with any questions regarding admissions, curriculum, or general information about Haris Qadri Islamic Academy
+        We&apos;re here to help you with any questions regarding admissions, curriculum, or general information about Haris Qadri Islamic Academy
         </p>
         <input
           type="text"
