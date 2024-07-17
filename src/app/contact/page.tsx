@@ -2,6 +2,7 @@
 import React from "react";
 import { BackgroundBeams } from "@/app/components/ui/background-beams";
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 export default function BackgroundBeamsDemo() {
   return (

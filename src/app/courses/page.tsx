@@ -87,6 +87,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import Link from "next/link";
 import courseData from "@/app/data/academy-all-courses.json"
+import Footer from "../components/Footer";
 
 interface CourseTypes {
   id: number,

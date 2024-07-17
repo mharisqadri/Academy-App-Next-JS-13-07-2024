@@ -139,7 +139,7 @@
 
 "use client";
 import { cn } from "@/app/utils/cn";
-import React, { useEffect, useRef, useState, useCallback } from "react";
+import React, { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import { createNoise3D } from "simplex-noise";
 
 export const WavyBackground = ({
@@ -184,13 +184,13 @@ export const WavyBackground = ({
     }
   }, [speed]);
 
-  const waveColors = colors ?? [
+  const waveColors = useMemo(() => colors ?? [
     "#38bdf8",
     "#818cf8",
     "#c084fc",
     "#e879f9",
     "#22d3ee",
-  ];
+  ], [colors]);
 
   const drawWave = useCallback((n: number) => {
     if (!ctxRef.current) return;
