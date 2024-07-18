@@ -1,5 +1,4 @@
 
-
 function Footer() {
   return (
     <footer className="bg-black text-gray py-12">
@@ -84,4 +83,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;

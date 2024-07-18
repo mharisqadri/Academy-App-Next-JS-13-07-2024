@@ -17,12 +17,12 @@ export default function Navbar({ className }: { className?: string }) {
         </Link>
         <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm" >
-            <HoveredLink href="/courses">All Courses</HoveredLink>
-            <HoveredLink href="/courses">Nazra Courses</HoveredLink>
-            <HoveredLink href="/courses">Qiraat Courses</HoveredLink>
-            <HoveredLink href="/courses">Naat Courses</HoveredLink>
-            <HoveredLink href="/courses">Qiraat & Naat</HoveredLink>
-            <HoveredLink href="/courses">Mubaligh Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>All Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Nazra Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Qiraat Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Naat Courses</HoveredLink>
+            <HoveredLink href={"/courses"}>Qiraat & Naat</HoveredLink>
+            <HoveredLink href={"/courses"}>Mubaligh Courses</HoveredLink>
           </div>
         </MenuItem>
         <Link href={"/contact"}>
