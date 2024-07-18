@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "@/app/components/ui/background-beams";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import { BackgroundBeams } from "../components/ui/background-beams";
 
 export default function BackgroundBeamsDemo() {
   return (
