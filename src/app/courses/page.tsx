@@ -26,7 +26,11 @@ function page() {
         All courses ({courseData.courses.length})</h1>
         <div className="flex flex-wrap justify-center">
           {courseData.courses.map((course:CourseTypes) => (
+<<<<<<< HEAD
             <CardContainer key={course.id} className="inter-var m-4">
+=======
+            <CardContainer key={course.id} className="inter-var m-4">  // key={course.id} baad me likha
+>>>>>>> 977ed790766e3267645df9f80953d4110b132a02
             <CardBody className="relative group/card  hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
